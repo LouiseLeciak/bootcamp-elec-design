@@ -1015,7 +1015,7 @@
 					(color 132 0 132 1)
 				)
 				(fill
-					(type none)
+					(type outline)
 				)
 			)
 			(polyline
