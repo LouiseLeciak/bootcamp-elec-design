@@ -1073,7 +1073,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "GND"
+		(property "Reference" "#PWR"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1108,6 +1108,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "GND"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2760,7 +2769,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "VCC"
+		(property "Reference" "#PWR"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2768,7 +2777,7 @@
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "VCC"
 			(at 0 0 0)
 			(effects
 				(font
