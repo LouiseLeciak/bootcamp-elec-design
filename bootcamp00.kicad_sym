@@ -733,15 +733,6 @@
 					(type none)
 				)
 			)
-			(text "F"
-				(at 3.302 -2.032 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(color 0 72 72 1)
-					)
-				)
-			)
 			(pin bidirectional line
 				(at -2.54 2.54 270)
 				(length 2.54)
