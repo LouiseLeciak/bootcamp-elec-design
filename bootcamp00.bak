@@ -617,6 +617,9 @@
 		(embedded_fonts no)
 	)
 	(symbol "CAPACITOR"
+		(pin_numbers
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -778,6 +781,9 @@
 		(embedded_fonts no)
 	)
 	(symbol "DIODE"
+		(pin_numbers
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -905,6 +911,9 @@
 		(embedded_fonts no)
 	)
 	(symbol "DIODE_LIGHT_EMITTING"
+		(pin_numbers
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1070,6 +1079,9 @@
 		(embedded_fonts no)
 	)
 	(symbol "GND"
+		(pin_numbers
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2293,6 +2305,9 @@
 		(embedded_fonts no)
 	)
 	(symbol "QUARTZ"
+		(pin_numbers
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2495,6 +2510,9 @@
 		(embedded_fonts no)
 	)
 	(symbol "RESISTOR"
+		(pin_numbers
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2595,6 +2613,9 @@
 		(embedded_fonts no)
 	)
 	(symbol "SWITCH"
+		(pin_numbers
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2758,6 +2779,9 @@
 		(embedded_fonts no)
 	)
 	(symbol "VCC"
+		(pin_numbers
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
