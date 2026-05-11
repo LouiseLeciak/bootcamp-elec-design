@@ -91,7 +91,7 @@
 			)
 		)
 		(symbol "ATmega328P-A_1_1"
-			(pin bidirectional line
+			(pin passive line
 				(at -33.02 71.12 0)
 				(length 2.54)
 				(name "AREF"
@@ -109,7 +109,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin input line
 				(at -33.02 66.04 0)
 				(length 2.54)
 				(name "ADC6"
@@ -127,7 +127,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin input line
 				(at -33.02 63.5 0)
 				(length 2.54)
 				(name "ADC7"
@@ -166,14 +166,14 @@
 			(pin power_in line
 				(at -15.24 -2.54 90)
 				(length 2.54)
-				(name "3"
+				(name "GND"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "GND"
+				(number "3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -637,7 +637,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -733,7 +732,7 @@
 					(type none)
 				)
 			)
-			(pin bidirectional line
+			(pin passive line
 				(at -2.54 2.54 270)
 				(length 2.54)
 				(name ""
@@ -751,7 +750,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin passive line
 				(at -2.54 -3.81 90)
 				(length 2.54)
 				(name ""
@@ -864,7 +863,7 @@
 					(type none)
 				)
 			)
-			(pin input line
+			(pin passive line
 				(at -3.81 5.08 270)
 				(length 2.54)
 				(name ""
@@ -882,7 +881,7 @@
 					)
 				)
 			)
-			(pin output line
+			(pin passive line
 				(at -3.81 -2.54 90)
 				(length 2.54)
 				(name ""
@@ -924,7 +923,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -1033,7 +1031,7 @@
 					(type none)
 				)
 			)
-			(pin input line
+			(pin passive line
 				(at -3.81 5.08 270)
 				(length 2.54)
 				(name ""
@@ -1051,7 +1049,7 @@
 					)
 				)
 			)
-			(pin output line
+			(pin passive line
 				(at -3.81 -2.54 90)
 				(length 2.54)
 				(name ""
@@ -1176,7 +1174,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -1627,7 +1624,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -2066,7 +2062,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -2302,9 +2297,6 @@
 		(embedded_fonts no)
 	)
 	(symbol "QUARTZ"
-		(pin_numbers
-			(hide yes)
-		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2432,7 +2424,7 @@
 					(type none)
 				)
 			)
-			(pin bidirectional line
+			(pin passive line
 				(at -5.08 1.27 0)
 				(length 2.54)
 				(name ""
@@ -2442,7 +2434,7 @@
 						)
 					)
 				)
-				(number "3"
+				(number "4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2450,26 +2442,8 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin passive line
 				(at 1.27 6.35 270)
-				(length 2.54)
-				(name ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "0"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 1.27 -3.81 90)
 				(length 2.54)
 				(name ""
 					(effects
@@ -2486,7 +2460,25 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin passive line
+				(at 1.27 -3.81 90)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
 				(at 7.62 1.27 180)
 				(length 2.54)
 				(name ""
@@ -2528,7 +2520,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -2572,7 +2563,7 @@
 					(type none)
 				)
 			)
-			(pin bidirectional line
+			(pin passive line
 				(at -2.54 3.81 270)
 				(length 2.54)
 				(name ""
@@ -2590,7 +2581,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin passive line
 				(at -2.54 -7.62 90)
 				(length 2.54)
 				(name ""
@@ -2632,7 +2623,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -2739,7 +2729,7 @@
 					(type none)
 				)
 			)
-			(pin bidirectional line
+			(pin passive line
 				(at -5.08 -5.08 0)
 				(length 2.54)
 				(name ""
@@ -2757,7 +2747,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin passive line
 				(at 5.08 -5.08 180)
 				(length 2.54)
 				(name ""
