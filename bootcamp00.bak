@@ -109,7 +109,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin passive line
 				(at -33.02 66.04 0)
 				(length 2.54)
 				(name "ADC6"
@@ -127,7 +127,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin passive line
 				(at -33.02 63.5 0)
 				(length 2.54)
 				(name "ADC7"

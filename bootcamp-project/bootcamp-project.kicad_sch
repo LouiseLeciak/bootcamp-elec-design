@@ -112,7 +112,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at -33.02 66.04 0)
 					(length 2.54)
 					(name "ADC6"
@@ -130,7 +130,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at -33.02 63.5 0)
 					(length 2.54)
 					(name "ADC7"
@@ -1007,7 +1007,7 @@
 						(type none)
 					)
 				)
-				(pin power_in line
+				(pin power_out line
 					(at 0 6.35 270)
 					(length 2.54)
 					(name ""
@@ -5329,7 +5329,7 @@
 	)
 	(symbol
 		(lib_id "bootcamp00:CAPACITOR")
-		(at 186.69 53.34 270)
+		(at 185.42 48.26 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5337,7 +5337,7 @@
 		(dnp no)
 		(uuid "4b44538f-98ec-48d7-9d08-365d81c2fbb9")
 		(property "Reference" "C4"
-			(at 186.182 53.848 90)
+			(at 185.928 47.752 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5345,7 +5345,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 186.69 56.388 90)
+			(at 185.42 45.212 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5353,7 +5353,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 186.69 53.34 0)
+			(at 185.42 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5362,7 +5362,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 186.69 53.34 0)
+			(at 185.42 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5371,7 +5371,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 186.69 53.34 0)
+			(at 185.42 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5396,34 +5396,33 @@
 	)
 	(symbol
 		(lib_id "bootcamp00:CAPACITOR")
-		(at 38.1 40.64 180)
+		(at 43.18 39.37 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "4c2b8e82-60b0-473e-8cf8-f4eac5948adb")
 		(property "Reference" "C6"
-			(at 43.18 39.3064 0)
+			(at 43.18 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "1uf"
-			(at 43.18 41.8464 0)
+			(at 43.18 41.656 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 38.1 40.64 0)
+			(at 43.18 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5432,7 +5431,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 38.1 40.64 0)
+			(at 43.18 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5441,7 +5440,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 38.1 40.64 0)
+			(at 43.18 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
