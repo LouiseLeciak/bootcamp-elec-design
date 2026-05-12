@@ -910,7 +910,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "D"
-			(at 0 2.54 0)
+			(at 0.508 3.048 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -955,58 +955,6 @@
 		(symbol "DIODE_LIGHT_EMITTING_1_1"
 			(polyline
 				(pts
-					(xy -5.715 2.54) (xy -5.715 1.905) (xy -6.35 1.905)
-				)
-				(stroke
-					(width 0)
-					(type solid)
-					(color 132 0 132 1)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -5.715 1.905) (xy -6.985 3.175)
-				)
-				(stroke
-					(width 0)
-					(type solid)
-					(color 132 0 132 1)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -5.715 1.27) (xy -5.715 0.635) (xy -6.35 0.635)
-				)
-				(stroke
-					(width 0)
-					(type solid)
-					(color 132 0 132 1)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -5.715 0.635) (xy -6.985 1.905)
-				)
-				(stroke
-					(width 0)
-					(type solid)
-					(color 132 0 132 1)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
 					(xy -5.08 2.54) (xy -2.54 2.54) (xy -3.81 0) (xy -5.08 2.54)
 				)
 				(stroke
@@ -1021,6 +969,58 @@
 			(polyline
 				(pts
 					(xy -5.08 0) (xy -2.54 0)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+					(color 132 0 132 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.635 1.27) (xy -0.635 0.635) (xy -1.27 0.635)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+					(color 132 0 132 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.635 0.635) (xy -1.905 1.905)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+					(color 132 0 132 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.635 0) (xy -0.635 -0.635) (xy -1.27 -0.635)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+					(color 132 0 132 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.635 -0.635) (xy -1.905 0.635)
 				)
 				(stroke
 					(width 0)
