@@ -1,0 +1,113 @@
+(footprint "LED_RED"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "27fc73ae-f850-4865-9683-c38050b51fc1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "LED_RED"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a2901052-7630-40b6-a2aa-5cc7c561b50e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://cdn-reichelt.de/documents/datenblatt/A500/KP-1608SGD.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5b740908-94ff-4c82-94b6-950b0424c408")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "977590ae-f03f-4612-961f-28ea61ed39a7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -0.05 -0.98)
+		(end 2.51 -0.04)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "c3531c14-0a5a-4d90-923a-31d38d7d54d9")
+	)
+	(fp_text user "RED"
+		(at 0.71 0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "841120d9-b41f-4f46-84a4-6ba26e0c0411")
+		(effects
+			(font
+				(size 0.3 0.3)
+				(thickness 0.075)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "D"
+		(at 0.7 -1.13 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "a59c6c5d-24df-4a8a-97e3-b5f4c1d080f9")
+		(effects
+			(font
+				(size 0.3 0.3)
+				(thickness 0.075)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(pad "1" smd roundrect
+		(at 0.4 -0.51)
+		(size 0.8 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "016ad059-11df-4e45-99e8-975a303dc463")
+	)
+	(pad "2" smd roundrect
+		(at 2.05 -0.51)
+		(size 0.8 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "efa0207e-4a35-4844-a5ef-450fd223836c")
+	)
+	(embedded_fonts no)
+)
