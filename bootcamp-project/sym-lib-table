@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "bootcamp00")(type "KiCad")(uri "/home/lleciak/1-projet-42/bootcamp-elec-design/bootcamp00.kicad_sym")(options "")(descr ""))
+)
