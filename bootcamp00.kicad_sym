@@ -1135,7 +1135,7 @@
 					(type none)
 				)
 			)
-			(pin power_out line
+			(pin power_in line
 				(at 0 6.35 270)
 				(length 2.54)
 				(name ""
@@ -2296,6 +2296,89 @@
 		)
 		(embedded_fonts no)
 	)
+	(symbol "POWER_FLAG"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "POWER_FLAG_1_1"
+			(polyline
+				(pts
+					(xy -1.27 -2.54) (xy -2.54 -3.175) (xy -1.27 -3.81) (xy 0 -3.175) (xy -1.27 -2.54)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+					(color 132 0 132 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin power_out line
+				(at -1.27 0 270)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 	(symbol "QUARTZ"
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2861,7 +2944,7 @@
 			)
 		)
 		(symbol "VCC_1_1"
-			(pin power_out line
+			(pin power_in line
 				(at 0 -7.62 90)
 				(length 2.54)
 				(name ""
