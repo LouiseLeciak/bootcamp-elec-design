@@ -101,13 +101,13 @@
 		(uuid "2dd35f38-88d2-46a2-8e01-4ace83e9b557")
 	)
 	(fp_text user "U"
-		(at 3.41 3.08 0)
+		(at 3.51 3.52 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "1b11ecd6-74d2-4dbf-91a4-0f6ed2302866")
 		(effects
 			(font
-				(size 0.5 0.5)
+				(size 0.8 0.8)
 				(thickness 0.075)
 			)
 			(justify left bottom)

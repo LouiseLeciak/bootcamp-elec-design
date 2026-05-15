@@ -57,7 +57,7 @@
 	)
 	(attr smd)
 	(fp_rect
-		(start -7.11 -1.47)
+		(start -7.04 -1.39)
 		(end 2.87 4.75)
 		(stroke
 			(width 0.05)
@@ -68,13 +68,13 @@
 		(uuid "1cfa04af-1966-4135-a26d-2ce7a3665150")
 	)
 	(fp_text user "SW"
-		(at -4.53 2.11 0)
+		(at -4.51 -1.64 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "42c72284-e054-400b-bb9e-1273409e4c71")
 		(effects
 			(font
-				(size 1 1)
+				(size 0.8 0.8)
 				(thickness 0.1)
 			)
 			(justify left bottom)

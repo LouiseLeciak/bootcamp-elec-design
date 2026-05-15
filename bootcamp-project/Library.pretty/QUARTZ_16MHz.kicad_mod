@@ -114,23 +114,21 @@
 		(uuid "6998c357-7290-4dcb-9e15-e66428e42fd1")
 		(effects
 			(font
-				(size 0.5 0.5)
-				(thickness 0.125)
-				(bold yes)
+				(size 0.8 0.8)
+				(thickness 0.1)
 			)
 			(justify left bottom)
 		)
 	)
 	(fp_text user "16MHz"
-		(at -0.09 1.94 0)
+		(at -0.61 2.23 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "83745114-0855-4a23-ba88-0ab9766af21c")
 		(effects
 			(font
-				(size 0.5 0.5)
-				(thickness 0.125)
-				(bold yes)
+				(size 0.8 0.8)
+				(thickness 0.1)
 			)
 			(justify left bottom)
 		)
@@ -142,23 +140,21 @@
 		(uuid "ad7c1d9d-a922-4bb5-802e-1e9c71626e9d")
 		(effects
 			(font
-				(size 0.5 0.5)
-				(thickness 0.125)
-				(bold yes)
+				(size 0.8 0.8)
+				(thickness 0.1)
 			)
 			(justify left bottom)
 		)
 	)
 	(fp_text user "GND"
-		(at -2.74 -1.35 0)
+		(at -3.42 -1.09 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "bb3784e4-4c4c-4e5b-bad7-a21169bb8fdc")
 		(effects
 			(font
-				(size 0.5 0.5)
-				(thickness 0.125)
-				(bold yes)
+				(size 0.8 0.8)
+				(thickness 0.1)
 			)
 			(justify left bottom)
 		)

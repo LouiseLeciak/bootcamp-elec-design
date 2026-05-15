@@ -74,7 +74,7 @@
 		(uuid "0d8b65aa-c6fe-4f28-8766-dad354f0c9f5")
 		(effects
 			(font
-				(size 1 1)
+				(size 0.8 0.8)
 				(thickness 0.1)
 			)
 			(justify left bottom)
