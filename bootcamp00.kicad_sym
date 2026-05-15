@@ -696,7 +696,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:marge_capacitor"
 			(at 0 0 0)
 			(effects
 				(font
@@ -828,137 +828,6 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "DIODE"
-		(pin_numbers
-			(hide yes)
-		)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "D"
-			(at 0 2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "DIODE_0_1"
-			(polyline
-				(pts
-					(xy -5.08 2.54) (xy -5.08 2.54)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-		)
-		(symbol "DIODE_1_1"
-			(polyline
-				(pts
-					(xy -5.08 2.54) (xy -2.54 2.54) (xy -3.81 0) (xy -5.08 2.54)
-				)
-				(stroke
-					(width 0)
-					(type solid)
-					(color 132 0 132 1)
-				)
-				(fill
-					(type outline)
-				)
-			)
-			(polyline
-				(pts
-					(xy -5.08 0) (xy -2.54 0)
-				)
-				(stroke
-					(width 0)
-					(type solid)
-					(color 132 0 132 1)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(pin passive line
-				(at -3.81 5.08 270)
-				(length 2.54)
-				(name ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "0"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -3.81 -2.54 90)
-				(length 2.54)
-				(name ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-		(embedded_fonts no)
-	)
 	(symbol "DIODE_LIGHT_EMITTING"
 		(pin_numbers
 			(hide yes)
@@ -982,7 +851,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:marge_led"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1233,7 +1102,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:JUMPER_12_J1"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1683,7 +1552,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:JUMPER_12_J2"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2121,7 +1990,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:JUMPER_FDTI"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2457,7 +2326,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:QUARTZ_16MHz"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2662,7 +2531,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:marge_resistor"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2765,7 +2634,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:SWITCH_SW"
 			(at 0 0 0)
 			(effects
 				(font
