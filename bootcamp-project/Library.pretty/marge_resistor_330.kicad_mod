@@ -1,4 +1,4 @@
-(footprint "-CAPACITOR_1uF_1"
+(footprint "marge_resistor_330"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -8,7 +8,7 @@
 		(unlocked yes)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "32137069-14ed-41b7-b044-fb1ffddaeb84")
+		(uuid "a85545bd-277c-4f2c-b157-630b03c58dac")
 		(effects
 			(font
 				(size 1 1)
@@ -16,12 +16,12 @@
 			)
 		)
 	)
-	(property "Value" "-CAPACITOR_1uF_1"
+	(property "Value" "marge_resistor_330"
 		(at 0 1 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "2965f928-d9e0-4d59-9ce7-2face25efb31")
+		(uuid "c2ca2e25-ab69-4fcd-9a18-fb19da56716c")
 		(effects
 			(font
 				(size 1 1)
@@ -29,12 +29,12 @@
 			)
 		)
 	)
-	(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/KEM_C1003_C0G_SMD"
+	(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "0a90c122-69f3-4193-b0d6-9654771f5c38")
+		(uuid "95b233ac-189b-444e-9fbc-20989f2660db")
 		(effects
 			(font
 				(size 1 1)
@@ -47,7 +47,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "395a01a9-ea43-497e-a188-e13cf36affd4")
+		(uuid "43a2d16d-7dcc-44e6-b465-d19d14034fcb")
 		(effects
 			(font
 				(size 1 1)
@@ -57,21 +57,34 @@
 	)
 	(attr smd)
 	(fp_rect
-		(start -1.51 1.76)
-		(end 0.19 2.67)
+		(start -1.519373 -0.256907)
+		(end 1.180627 0.883093)
 		(stroke
 			(width 0.05)
 			(type default)
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "c4e78219-e846-4de2-9904-5394e47230cc")
+		(uuid "99285058-ba9e-47a6-8734-e46175a571cb")
 	)
-	(fp_text user "C"
-		(at -0.82 2.1 0)
+	(fp_text user "330"
+		(at -0.489373 0.583093 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "6c5dc905-dfe5-4f55-8cfd-875265a8a59c")
+		(uuid "31cd15ab-e56b-41b0-bf3f-f42b533d4873")
+		(effects
+			(font
+				(size 0.15 0.15)
+				(thickness 0.02)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "R"
+		(at -0.489373 0.203093 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "99cc854b-3938-46bd-9f80-f5dd8c6a8ad5")
 		(effects
 			(font
 				(size 0.2 0.2)
@@ -80,32 +93,19 @@
 			(justify left bottom)
 		)
 	)
-	(fp_text user "1uF"
-		(at -0.8 2.39 0)
-		(unlocked yes)
-		(layer "F.SilkS")
-		(uuid "70671605-5a3e-446f-8dac-8378095eb11d")
-		(effects
-			(font
-				(size 0.1 0.1)
-				(thickness 0.02)
-			)
-			(justify left bottom)
-		)
-	)
 	(pad "1" smd roundrect
-		(at -1.305 2.21)
-		(size 0.3 0.8)
+		(at -0.974373 0.313093)
+		(size 0.95 1)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.15)
-		(uuid "984acf54-f469-4c9b-aab6-1287c233b646")
+		(uuid "1efa2141-baa9-45f8-b702-7a941d9fe4ec")
 	)
 	(pad "2" smd roundrect
-		(at -0.005 2.21)
-		(size 0.3 0.8)
+		(at 0.625627 0.313093)
+		(size 0.95 1)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.15)
-		(uuid "4bec5d1e-045c-42b8-a9ea-4fca7740236b")
+		(uuid "2b74c4e9-4357-4df5-9924-c6550f997733")
 	)
 	(embedded_fonts no)
 )

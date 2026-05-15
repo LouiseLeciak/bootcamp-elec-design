@@ -1,0 +1,111 @@
+(footprint "marge_led_red"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "27fc73ae-f850-4865-9683-c38050b51fc1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "marge_led_red"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a2901052-7630-40b6-a2aa-5cc7c561b50e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://cdn-reichelt.de/documents/datenblatt/A500/KP-1608SGD.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5b740908-94ff-4c82-94b6-950b0424c408")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "977590ae-f03f-4612-961f-28ea61ed39a7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -0.51 -1.02)
+		(end 2.19 0.12)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "a807c15c-af41-45e2-adaa-a2becedd7530")
+	)
+	(fp_text user "D"
+		(at 0.52 -0.56 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "a47e302f-78d9-4765-b967-e45f62bee676")
+		(effects
+			(font
+				(size 0.2 0.2)
+				(thickness 0.03)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "Red"
+		(at 0.52 -0.18 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "d7a52699-2653-48ae-9fb1-9522150cf19c")
+		(effects
+			(font
+				(size 0.15 0.15)
+				(thickness 0.02)
+			)
+			(justify left bottom)
+		)
+	)
+	(pad "1" smd roundrect
+		(at 0.035 -0.45)
+		(size 0.95 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "9768a5df-8fc2-4cc0-9efc-7c3937fd4e75")
+	)
+	(pad "2" smd roundrect
+		(at 1.635 -0.45)
+		(size 0.95 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "8537c1bf-379c-41cb-892e-98161fe9354b")
+	)
+	(embedded_fonts no)
+)
