@@ -57,8 +57,8 @@
 	)
 	(attr smd)
 	(fp_rect
-		(start -4.5 -17.5)
-		(end 1 0)
+		(start -2.235 -15.2)
+		(end 0.03 0)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -67,8 +67,8 @@
 		(layer "F.CrtYd")
 		(uuid "0d1b6520-e0e1-406e-a541-e7f6da6c2b60")
 	)
-	(fp_text user "FDTI"
-		(at -3 -15.5 0)
+	(fp_text user "J3"
+		(at 0.24 -15.02 270)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "1203d8eb-d2e6-4c00-a1a2-e35f1b737a02")
