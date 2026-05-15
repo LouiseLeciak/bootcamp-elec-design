@@ -1,4 +1,4 @@
-(footprint "CAPACITOR_1uF"
+(footprint "-CAPACITOR_1uF"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "CAPACITOR_1uF"
+	(property "Value" "-CAPACITOR_1uF"
 		(at 0 1 0)
 		(unlocked yes)
 		(layer "F.Fab")

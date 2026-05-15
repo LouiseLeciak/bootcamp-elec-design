@@ -5,92 +5,6 @@
 	(uuid "48b202d4-8288-4251-bc30-d77995558abc")
 	(paper "A4")
 	(lib_symbols
-		(symbol "GND_1"
-			(pin_numbers
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "GND"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "GND_1_1_1"
-				(polyline
-					(pts
-						(xy -1.27 3.81) (xy 1.27 3.81) (xy 0 1.905) (xy -1.27 3.81)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-						(color 132 0 132 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin power_in line
-					(at 0 6.35 270)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "POWER_FLAG_1"
 			(pin_numbers
 				(hide yes)
@@ -177,14 +91,14 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "VCC_1"
+		(symbol "POWER_FLAG_10"
 			(pin_numbers
 				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "#PWR"
+			(property "Reference" "U"
 				(at 0 0 0)
 				(effects
 					(font
@@ -193,7 +107,7 @@
 					(hide yes)
 				)
 			)
-			(property "Value" "VCC"
+			(property "Value" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -228,50 +142,22 @@
 					(hide yes)
 				)
 			)
-			(symbol "VCC_1_0_1"
+			(symbol "POWER_FLAG_10_1_1"
 				(polyline
 					(pts
-						(xy 0 -1.905) (xy -1.27 -3.175)
+						(xy -1.27 -2.54) (xy -2.54 -3.175) (xy -1.27 -3.81) (xy 0 -3.175) (xy -1.27 -2.54)
 					)
 					(stroke
 						(width 0)
-						(type default)
+						(type solid)
 						(color 132 0 132 1)
 					)
 					(fill
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 0 -1.905) (xy 0 -5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-						(color 132 0 132 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -1.905) (xy 1.27 -3.175)
-					)
-					(stroke
-						(width 0)
-						(type default)
-						(color 132 0 132 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "VCC_1_1_1"
-				(pin power_in line
-					(at 0 -7.62 90)
+				(pin power_out line
+					(at -1.27 0 270)
 					(length 2.54)
 					(name ""
 						(effects
@@ -280,7 +166,781 @@
 							)
 						)
 					)
-					(number "0"
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "POWER_FLAG_11"
+			(pin_numbers
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "POWER_FLAG_11_1_1"
+				(polyline
+					(pts
+						(xy -1.27 -2.54) (xy -2.54 -3.175) (xy -1.27 -3.81) (xy 0 -3.175) (xy -1.27 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 132 0 132 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_out line
+					(at -1.27 0 270)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "POWER_FLAG_2"
+			(pin_numbers
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "POWER_FLAG_2_1_1"
+				(polyline
+					(pts
+						(xy -1.27 -2.54) (xy -2.54 -3.175) (xy -1.27 -3.81) (xy 0 -3.175) (xy -1.27 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 132 0 132 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_out line
+					(at -1.27 0 270)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "POWER_FLAG_3"
+			(pin_numbers
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "POWER_FLAG_3_1_1"
+				(polyline
+					(pts
+						(xy -1.27 -2.54) (xy -2.54 -3.175) (xy -1.27 -3.81) (xy 0 -3.175) (xy -1.27 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 132 0 132 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_out line
+					(at -1.27 0 270)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "POWER_FLAG_4"
+			(pin_numbers
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "POWER_FLAG_4_1_1"
+				(polyline
+					(pts
+						(xy -1.27 -2.54) (xy -2.54 -3.175) (xy -1.27 -3.81) (xy 0 -3.175) (xy -1.27 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 132 0 132 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_out line
+					(at -1.27 0 270)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "POWER_FLAG_5"
+			(pin_numbers
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "POWER_FLAG_5_1_1"
+				(polyline
+					(pts
+						(xy -1.27 -2.54) (xy -2.54 -3.175) (xy -1.27 -3.81) (xy 0 -3.175) (xy -1.27 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 132 0 132 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_out line
+					(at -1.27 0 270)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "POWER_FLAG_6"
+			(pin_numbers
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "POWER_FLAG_6_1_1"
+				(polyline
+					(pts
+						(xy -1.27 -2.54) (xy -2.54 -3.175) (xy -1.27 -3.81) (xy 0 -3.175) (xy -1.27 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 132 0 132 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_out line
+					(at -1.27 0 270)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "POWER_FLAG_7"
+			(pin_numbers
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "POWER_FLAG_7_1_1"
+				(polyline
+					(pts
+						(xy -1.27 -2.54) (xy -2.54 -3.175) (xy -1.27 -3.81) (xy 0 -3.175) (xy -1.27 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 132 0 132 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_out line
+					(at -1.27 0 270)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "POWER_FLAG_8"
+			(pin_numbers
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "POWER_FLAG_8_1_1"
+				(polyline
+					(pts
+						(xy -1.27 -2.54) (xy -2.54 -3.175) (xy -1.27 -3.81) (xy 0 -3.175) (xy -1.27 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 132 0 132 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_out line
+					(at -1.27 0 270)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "POWER_FLAG_9"
+			(pin_numbers
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "POWER_FLAG_9_1_1"
+				(polyline
+					(pts
+						(xy -1.27 -2.54) (xy -2.54 -3.175) (xy -1.27 -3.81) (xy 0 -3.175) (xy -1.27 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 132 0 132 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_out line
+					(at -1.27 0 270)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -452,6 +1112,44 @@
 						)
 					)
 				)
+				(pin passive line
+					(at -17.78 78.74 270)
+					(length 2.54)
+					(hide yes)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -15.24 -2.54 90)
+					(length 2.54)
+					(hide yes)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin power_in line
 					(at -15.24 -2.54 90)
 					(length 2.54)
@@ -463,6 +1161,25 @@
 						)
 					)
 					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -15.24 -2.54 90)
+					(length 2.54)
+					(hide yes)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1068,7 +1785,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "D"
-				(at 0 2.54 0)
+				(at 0.508 3.048 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1293,7 +2010,7 @@
 						(type none)
 					)
 				)
-				(pin power_out line
+				(pin power_in line
 					(at 0 6.35 270)
 					(length 2.54)
 					(name ""
@@ -2458,6 +3175,9 @@
 			(pin_numbers
 				(hide yes)
 			)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -3105,7 +3825,7 @@
 				)
 			)
 			(symbol "VCC_1_1"
-				(pin power_out line
+				(pin power_in line
 					(at 0 -7.62 90)
 					(length 2.54)
 					(name ""
@@ -3200,10 +3920,22 @@
 		(uuid "c677024b-dd63-4965-ab21-79c59e70ff08")
 	)
 	(junction
+		(at 66.04 180.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "015db730-7da8-4d2c-b724-1c563e5f7cbb")
+	)
+	(junction
 		(at 66.04 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2cb23c79-fd6f-4cdf-a9fb-d3768ddf3d64")
+	)
+	(junction
+		(at 101.6 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2ede225c-81f7-478f-9ed4-738c014b37c6")
 	)
 	(junction
 		(at 40.64 34.29)
@@ -3224,6 +3956,12 @@
 		(uuid "633d807b-c030-4d5b-acda-0bf6dbedfaf9")
 	)
 	(junction
+		(at 60.96 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6dab3dfc-fa5c-4cf6-96c2-8dd1ef473ed2")
+	)
+	(junction
 		(at 107.95 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3236,16 +3974,58 @@
 		(uuid "7e91b177-5d93-41bd-a0e8-be171a7d4a60")
 	)
 	(junction
+		(at 34.29 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "86f42b25-ba4d-4139-b8f9-c37d6f429665")
+	)
+	(junction
+		(at 50.8 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8eec16f0-86e8-4322-8eb4-3e21e2fe623c")
+	)
+	(junction
 		(at 119.38 129.54)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "94dce481-ba7b-4513-90d7-fc3bef390a16")
 	)
 	(junction
+		(at 132.08 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a2c0a515-0c68-449a-b3d5-c7443b3ac14e")
+	)
+	(junction
 		(at 60.96 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d6233159-92cb-4e3d-a1c6-c55dd860042c")
+	)
+	(junction
+		(at 203.2 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d728d1b7-8ad9-4db7-b90e-d5d4990422f1")
+	)
+	(junction
+		(at 177.8 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d82d6d67-79c1-4e1e-b8bb-09fb853c0a78")
+	)
+	(junction
+		(at 40.64 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f213c419-ab55-4432-aedc-e8acd09284e1")
+	)
+	(junction
+		(at 121.92 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f653793b-4502-41d6-b04f-18494d5a48db")
 	)
 	(wire
 		(pts
@@ -3276,6 +4056,16 @@
 			(type default)
 		)
 		(uuid "1e6f7c69-9100-41eb-9dd4-63d9c70b362d")
+	)
+	(wire
+		(pts
+			(xy 203.2 38.1) (xy 205.74 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24bb9fe8-84b6-4a5f-b3e8-b58e1898f599")
 	)
 	(wire
 		(pts
@@ -3379,6 +4169,16 @@
 	)
 	(wire
 		(pts
+			(xy 66.04 96.52) (xy 69.85 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42f1ef81-0a18-4276-bcc3-8924541d6c08")
+	)
+	(wire
+		(pts
 			(xy 203.2 50.8) (xy 205.74 50.8)
 		)
 		(stroke
@@ -3386,6 +4186,16 @@
 			(type default)
 		)
 		(uuid "4dcf205e-8005-44cf-bd2f-d41486a0ca0b")
+	)
+	(wire
+		(pts
+			(xy 36.83 43.18) (xy 40.64 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52379765-1187-4411-9a5e-4ab5ae4a166c")
 	)
 	(wire
 		(pts
@@ -3399,6 +4209,16 @@
 	)
 	(wire
 		(pts
+			(xy 60.96 53.34) (xy 63.5 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "572cb282-8978-4b0b-8263-51a20eb4aada")
+	)
+	(wire
+		(pts
 			(xy 66.04 97.79) (xy 68.58 97.79)
 		)
 		(stroke
@@ -3409,6 +4229,16 @@
 	)
 	(wire
 		(pts
+			(xy 62.23 180.34) (xy 66.04 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b3fe4e8-ac50-4f3e-891c-daa33b5af2fc")
+	)
+	(wire
+		(pts
 			(xy 203.2 54.61) (xy 205.74 54.61)
 		)
 		(stroke
@@ -3416,6 +4246,16 @@
 			(type default)
 		)
 		(uuid "5e7a8b6f-74e4-47e6-b389-002dd8d99117")
+	)
+	(wire
+		(pts
+			(xy 132.08 52.07) (xy 134.62 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f6dfef4-b500-4e84-8bb4-7198122a1ea4")
 	)
 	(wire
 		(pts
@@ -3459,6 +4299,16 @@
 	)
 	(wire
 		(pts
+			(xy 175.26 52.07) (xy 177.8 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "903bdcb2-e290-4232-bb8c-ed74795434dd")
+	)
+	(wire
+		(pts
 			(xy 119.38 121.92) (xy 119.38 129.54)
 		)
 		(stroke
@@ -3476,6 +4326,26 @@
 			(type default)
 		)
 		(uuid "985da063-3e92-45ae-9cdb-3322a1965cdb")
+	)
+	(wire
+		(pts
+			(xy 31.75 104.14) (xy 34.29 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d766ead-9f48-4915-9c69-7339f54d421b")
+	)
+	(wire
+		(pts
+			(xy 46.99 43.18) (xy 50.8 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a55e9f84-35a5-4caf-9acf-b836bd0f7cd2")
 	)
 	(wire
 		(pts
@@ -3539,6 +4409,36 @@
 	)
 	(wire
 		(pts
+			(xy 203.2 36.83) (xy 203.2 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3a74232-d2f1-41a7-aabf-92f9dcbd8ef4")
+	)
+	(wire
+		(pts
+			(xy 203.2 38.1) (xy 203.2 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dac3bd42-624b-41b0-9797-e1d52ab5f839")
+	)
+	(wire
+		(pts
+			(xy 121.92 129.54) (xy 124.46 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dbd4c1a1-1bd8-4334-8ac6-912cc330596c")
+	)
+	(wire
+		(pts
 			(xy 50.8 34.29) (xy 50.8 36.83)
 		)
 		(stroke
@@ -3549,6 +4449,16 @@
 	)
 	(wire
 		(pts
+			(xy 99.06 129.54) (xy 101.6 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e48e1ccb-443d-4f47-86c7-740c1dd5a5f3")
+	)
+	(wire
+		(pts
 			(xy 93.98 124.46) (xy 93.98 137.16)
 		)
 		(stroke
@@ -3556,6 +4466,26 @@
 			(type default)
 		)
 		(uuid "e875ee64-e766-4252-a270-e341fdca11f8")
+	)
+	(wire
+		(pts
+			(xy 66.04 97.79) (xy 66.04 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8b0483c-e053-4d46-9f68-9107e3d1c90a")
+	)
+	(wire
+		(pts
+			(xy 60.96 34.29) (xy 64.77 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f618c1c8-d7ba-48a9-b56a-631822808160")
 	)
 	(global_label "A1"
 		(shape input)
@@ -5208,6 +6138,15 @@
 		(pin "10"
 			(uuid "e9117dcb-9402-438d-8176-b8b1364ec29d")
 		)
+		(pin "6"
+			(uuid "a912a0ee-8b08-43d0-b4e9-f8e076844954")
+		)
+		(pin "21"
+			(uuid "f897d6be-efca-420b-98e6-087192df0a5c")
+		)
+		(pin "5"
+			(uuid "ad50ddd5-b1cd-4453-8e42-3177445c6a36")
+		)
 		(instances
 			(project "bootcamp-project"
 				(path "/48b202d4-8288-4251-bc30-d77995558abc"
@@ -5556,6 +6495,75 @@
 		)
 	)
 	(symbol
+		(lib_name "POWER_FLAG_2")
+		(lib_id "bootcamp00:POWER_FLAG")
+		(at 205.74 36.83 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "286c2b07-115a-4e75-899b-2d0d71a89fe7")
+		(property "Reference" "U4"
+			(at 205.74 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 210.82 38.0999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 205.74 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 205.74 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 205.74 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4ff1bf1b-e4e9-413b-9347-256fa5dc0fea")
+		)
+		(instances
+			(project ""
+				(path "/48b202d4-8288-4251-bc30-d77995558abc"
+					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "bootcamp00:QUARTZ")
 		(at 106.68 130.81 0)
 		(unit 1)
@@ -5835,73 +6843,6 @@
 		)
 	)
 	(symbol
-		(lib_name "GND_1")
-		(lib_id "bootcamp00:GND")
-		(at 271.78 27.94 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "525d451d-67b7-46ae-9d88-f620e9065f3f")
-		(property "Reference" "#PWR13"
-			(at 271.78 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 271.78 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 271.78 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 271.78 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 271.78 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin ""
-			(uuid "d6012cac-603e-4e0c-93cd-f67a09de057c")
-		)
-		(instances
-			(project ""
-				(path "/48b202d4-8288-4251-bc30-d77995558abc"
-					(reference "#PWR13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "bootcamp00:CAPACITOR")
 		(at 115.57 134.62 90)
 		(unit 1)
@@ -5969,18 +6910,18 @@
 		)
 	)
 	(symbol
-		(lib_name "VCC_1")
-		(lib_id "bootcamp00:VCC")
-		(at 279.4 15.24 0)
+		(lib_name "POWER_FLAG_1")
+		(lib_id "bootcamp00:POWER_FLAG")
+		(at 63.5 52.07 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "59db5d8b-cb38-4a75-af3c-e5e86ca25b02")
-		(property "Reference" "#PWR14"
-			(at 279.4 15.24 0)
+		(uuid "5bf9fae6-d58f-42d1-adb8-073e4621e8f0")
+		(property "Reference" "U3"
+			(at 63.5 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5988,16 +6929,18 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VCC"
-			(at 279.4 15.24 0)
+		(property "Value" "~"
+			(at 68.58 53.3399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
-			(at 279.4 15.24 0)
+			(at 63.5 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6006,7 +6949,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 279.4 15.24 0)
+			(at 63.5 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6015,7 +6958,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 279.4 15.24 0)
+			(at 63.5 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6023,13 +6966,13 @@
 				(hide yes)
 			)
 		)
-		(pin "0"
-			(uuid "f41774c7-0112-4481-8932-2c80d80f9a28")
+		(pin "1"
+			(uuid "79d6d9ae-9dd1-4762-aca1-db163bf2170f")
 		)
 		(instances
 			(project ""
 				(path "/48b202d4-8288-4251-bc30-d77995558abc"
-					(reference "#PWR14")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -6096,6 +7039,74 @@
 			(project "bootcamp-project"
 				(path "/48b202d4-8288-4251-bc30-d77995558abc"
 					(reference "#PWR7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "POWER_FLAG_3")
+		(lib_id "bootcamp00:POWER_FLAG")
+		(at 175.26 53.34 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "62774d9c-f817-44c6-868e-ee438c787563")
+		(property "Reference" "U5"
+			(at 175.26 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 172.085 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 175.26 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.26 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 175.26 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ddec9a91-3088-4756-91c8-2db4179d0995")
+		)
+		(instances
+			(project ""
+				(path "/48b202d4-8288-4251-bc30-d77995558abc"
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -6172,6 +7183,144 @@
 		)
 	)
 	(symbol
+		(lib_name "POWER_FLAG_4")
+		(lib_id "bootcamp00:POWER_FLAG")
+		(at 134.62 50.8 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "679bcba3-ddaf-43c8-bbb3-16d937f9e399")
+		(property "Reference" "U6"
+			(at 134.62 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 139.7 52.0699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 134.62 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 134.62 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c3620cb8-a387-4e52-8664-a14018eb3b9f")
+		)
+		(instances
+			(project ""
+				(path "/48b202d4-8288-4251-bc30-d77995558abc"
+					(reference "U6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "POWER_FLAG_5")
+		(lib_id "bootcamp00:POWER_FLAG")
+		(at 48.26 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "69e61562-220a-413f-bb22-9eb2033270f6")
+		(property "Reference" "U7"
+			(at 48.26 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 49.53 46.3549 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 48.26 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 48.26 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 48.26 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "12266bab-030d-4b93-b6c9-538490ef2ba2")
+		)
+		(instances
+			(project ""
+				(path "/48b202d4-8288-4251-bc30-d77995558abc"
+					(reference "U7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "bootcamp00:VCC")
 		(at 60.96 26.67 0)
 		(unit 1)
@@ -6238,17 +7387,18 @@
 		)
 	)
 	(symbol
+		(lib_name "POWER_FLAG_10")
 		(lib_id "bootcamp00:POWER_FLAG")
-		(at 270.51 21.59 180)
+		(at 100.33 129.54 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "8105fe55-23b2-417e-ba07-71738d45ef6c")
-		(property "Reference" "U3"
-			(at 270.51 21.59 0)
+		(uuid "738f59b6-e727-4819-a204-df6a1a6eb53a")
+		(property "Reference" "U12"
+			(at 100.33 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6257,76 +7407,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 274.32 18.4149 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 270.51 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 270.51 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 270.51 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a4e7e6d4-1e9e-4efb-b330-3f2461c52f4c")
-		)
-		(instances
-			(project ""
-				(path "/48b202d4-8288-4251-bc30-d77995558abc"
-					(reference "U3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "POWER_FLAG_1")
-		(lib_id "bootcamp00:POWER_FLAG")
-		(at 280.67 22.86 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8463df2e-d8f1-48f4-bcb6-80b650849a91")
-		(property "Reference" "U2"
-			(at 280.67 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "~"
-			(at 281.94 26.0349 0)
+			(at 101.6 132.7149 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6336,7 +7417,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 280.67 22.86 0)
+			(at 100.33 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6345,7 +7426,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 280.67 22.86 0)
+			(at 100.33 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6354,7 +7435,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 280.67 22.86 0)
+			(at 100.33 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6363,12 +7444,81 @@
 			)
 		)
 		(pin "1"
-			(uuid "757e1ae7-04c9-472f-910a-7d5b5ae9f58d")
+			(uuid "135a3b28-4694-4058-ba5d-9d3876156857")
 		)
 		(instances
 			(project ""
 				(path "/48b202d4-8288-4251-bc30-d77995558abc"
-					(reference "U2")
+					(reference "U12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "POWER_FLAG_6")
+		(lib_id "bootcamp00:POWER_FLAG")
+		(at 38.1 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8de943f5-172a-4c87-ae0d-1e9635838a6f")
+		(property "Reference" "U8"
+			(at 38.1 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 39.37 46.3549 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 38.1 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.1 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 38.1 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9ba105c9-d004-467c-8617-e860f673d62e")
+		)
+		(instances
+			(project ""
+				(path "/48b202d4-8288-4251-bc30-d77995558abc"
+					(reference "U8")
 					(unit 1)
 				)
 			)
@@ -6690,6 +7840,212 @@
 		)
 	)
 	(symbol
+		(lib_name "POWER_FLAG_9")
+		(lib_id "bootcamp00:POWER_FLAG")
+		(at 125.73 129.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a9b7d6dd-affc-4ee3-a06f-e917f1ed5679")
+		(property "Reference" "U11"
+			(at 125.73 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 127 132.7149 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 125.73 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 125.73 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 125.73 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e5459397-8d7c-45e0-8379-210dbaa9437e")
+		)
+		(instances
+			(project ""
+				(path "/48b202d4-8288-4251-bc30-d77995558abc"
+					(reference "U11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "POWER_FLAG_8")
+		(lib_id "bootcamp00:POWER_FLAG")
+		(at 69.85 95.25 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b5ab82dd-3077-4694-869a-7941d902f9d0")
+		(property "Reference" "U10"
+			(at 69.85 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 74.93 96.5199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 69.85 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 69.85 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 69.85 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b1bf6659-ec2c-4b9c-aa9d-635bc47d32c2")
+		)
+		(instances
+			(project ""
+				(path "/48b202d4-8288-4251-bc30-d77995558abc"
+					(reference "U10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "bootcamp00:POWER_FLAG")
+		(at 64.77 33.02 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bcc6b1a6-1af8-4bbe-a2a3-ad7f2a8bbd92")
+		(property "Reference" "U2"
+			(at 64.77 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 69.85 34.2899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 64.77 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 64.77 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 64.77 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c6ecfc00-e687-4788-a6f9-fc0ab4d5e0c9")
+		)
+		(instances
+			(project ""
+				(path "/48b202d4-8288-4251-bc30-d77995558abc"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "bootcamp00:GND")
 		(at 177.8 58.42 0)
 		(unit 1)
@@ -6822,6 +8178,75 @@
 		)
 	)
 	(symbol
+		(lib_name "POWER_FLAG_11")
+		(lib_id "bootcamp00:POWER_FLAG")
+		(at 63.5 180.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d7455c1e-664d-46d3-81ce-06123f1e2ed3")
+		(property "Reference" "U13"
+			(at 63.5 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 64.77 183.5149 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 63.5 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 63.5 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "47d61918-b645-4eac-a87d-a8e49e46e21e")
+		)
+		(instances
+			(project ""
+				(path "/48b202d4-8288-4251-bc30-d77995558abc"
+					(reference "U13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "bootcamp00:GND")
 		(at 121.92 135.89 0)
 		(unit 1)
@@ -6889,7 +8314,7 @@
 	)
 	(symbol
 		(lib_id "bootcamp00:VCC")
-		(at 203.2 31.75 0)
+		(at 203.2 29.21 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6898,7 +8323,7 @@
 		(fields_autoplaced yes)
 		(uuid "ec4146b2-bf21-4cd1-a466-8ab6fbc6e802")
 		(property "Reference" "#PWR12"
-			(at 203.2 31.75 0)
+			(at 203.2 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6907,7 +8332,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 203.2 31.75 0)
+			(at 203.2 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6915,7 +8340,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 203.2 31.75 0)
+			(at 203.2 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6924,7 +8349,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 203.2 31.75 0)
+			(at 203.2 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6933,7 +8358,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 203.2 31.75 0)
+			(at 203.2 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7117,6 +8542,75 @@
 			(project "bootcamp-project"
 				(path "/48b202d4-8288-4251-bc30-d77995558abc"
 					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "POWER_FLAG_7")
+		(lib_id "bootcamp00:POWER_FLAG")
+		(at 33.02 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fa563228-796c-4a01-b47c-83932152075d")
+		(property "Reference" "U9"
+			(at 33.02 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 34.29 107.3149 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 33.02 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 33.02 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 33.02 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5521adaa-87d6-496f-8d26-6086fa8f70cd")
+		)
+		(instances
+			(project ""
+				(path "/48b202d4-8288-4251-bc30-d77995558abc"
+					(reference "U9")
 					(unit 1)
 				)
 			)

@@ -1,4 +1,4 @@
-(footprint "RESISTOR_10k"
+(footprint "-RESISTOR_10k"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -15,7 +15,7 @@
 			)
 		)
 	)
-	(property "Value" "RESISTOR_10k"
+	(property "Value" "-RESISTOR_10k"
 		(at 0 1 0)
 		(unlocked yes)
 		(layer "F.Fab")

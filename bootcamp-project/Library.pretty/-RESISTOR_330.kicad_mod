@@ -1,4 +1,4 @@
-(footprint "LED_GREEN"
+(footprint "-RESISTOR_330"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -8,7 +8,7 @@
 		(unlocked yes)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "27fc73ae-f850-4865-9683-c38050b51fc1")
+		(uuid "a85545bd-277c-4f2c-b157-630b03c58dac")
 		(effects
 			(font
 				(size 1 1)
@@ -16,12 +16,12 @@
 			)
 		)
 	)
-	(property "Value" "LED_GREEN"
+	(property "Value" "-RESISTOR_330"
 		(at 0 1 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "a2901052-7630-40b6-a2aa-5cc7c561b50e")
+		(uuid "c2ca2e25-ab69-4fcd-9a18-fb19da56716c")
 		(effects
 			(font
 				(size 1 1)
@@ -29,12 +29,12 @@
 			)
 		)
 	)
-	(property "Datasheet" "https://cdn-reichelt.de/documents/datenblatt/A500/KP-1608SGD.pdf"
+	(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "5b740908-94ff-4c82-94b6-950b0424c408")
+		(uuid "95b233ac-189b-444e-9fbc-20989f2660db")
 		(effects
 			(font
 				(size 1 1)
@@ -47,7 +47,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "977590ae-f03f-4612-961f-28ea61ed39a7")
+		(uuid "43a2d16d-7dcc-44e6-b465-d19d14034fcb")
 		(effects
 			(font
 				(size 1 1)
@@ -57,57 +57,55 @@
 	)
 	(attr smd)
 	(fp_rect
-		(start -0.05 -0.98)
-		(end 2.51 -0.04)
+		(start -1.06 0.34)
+		(end 0.67 1.29)
 		(stroke
 			(width 0.05)
 			(type default)
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "c3531c14-0a5a-4d90-923a-31d38d7d54d9")
+		(uuid "9b404596-a406-42cf-af6c-95deb3756733")
 	)
-	(fp_text user "GREEN"
-		(at 0.5 0.5 0)
+	(fp_text user "330"
+		(at -0.56 1.22 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "841120d9-b41f-4f46-84a4-6ba26e0c0411")
+		(uuid "97746fbc-3e95-4164-bf76-e1d59f6de3f3")
 		(effects
 			(font
 				(size 0.3 0.3)
-				(thickness 0.075)
-				(bold yes)
+				(thickness 0.03)
 			)
 			(justify left bottom)
 		)
 	)
-	(fp_text user "D"
-		(at 0.7 -1.13 0)
+	(fp_text user "R"
+		(at -0.53 0.81 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "a59c6c5d-24df-4a8a-97e3-b5f4c1d080f9")
+		(uuid "e705c312-6eec-4db6-b1ca-a995054e8677")
 		(effects
 			(font
 				(size 0.3 0.3)
-				(thickness 0.075)
-				(bold yes)
+				(thickness 0.03)
 			)
 			(justify left bottom)
 		)
 	)
 	(pad "1" smd roundrect
-		(at 0.4 -0.51)
-		(size 0.8 0.8)
+		(at -0.87 0.81)
+		(size 0.25 0.8)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.15)
-		(uuid "016ad059-11df-4e45-99e8-975a303dc463")
+		(uuid "a3706685-2126-4cb4-aadf-898f222e3763")
 	)
 	(pad "2" smd roundrect
-		(at 2.05 -0.51)
-		(size 0.8 0.8)
+		(at 0.48 0.8)
+		(size 0.25 0.8)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.15)
-		(uuid "efa0207e-4a35-4844-a5ef-450fd223836c")
+		(uuid "d7204bb5-62bb-45d0-8faa-e02e13d5b2db")
 	)
 	(embedded_fonts no)
 )

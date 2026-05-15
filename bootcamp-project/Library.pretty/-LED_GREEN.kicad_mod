@@ -1,4 +1,4 @@
-(footprint "LED_RED"
+(footprint "-LED_GREEN"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "LED_RED"
+	(property "Value" "-LED_GREEN"
 		(at 0 1 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -67,8 +67,8 @@
 		(layer "F.CrtYd")
 		(uuid "c3531c14-0a5a-4d90-923a-31d38d7d54d9")
 	)
-	(fp_text user "RED"
-		(at 0.71 0.5 0)
+	(fp_text user "GREEN"
+		(at 0.5 0.5 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "841120d9-b41f-4f46-84a4-6ba26e0c0411")
