@@ -67,8 +67,8 @@
 		(uuid "c17c4bd4-7c59-4480-b80d-9a551a28e0ed")
 	)
 	(fp_line
-		(start -1.6 -0.25)
-		(end -1.6 0.17)
+		(start -1.6 -0.14)
+		(end -1.6 0.1)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -87,8 +87,8 @@
 		(uuid "6f4fe80e-aeb4-4c8e-b3c9-96fd83cc9411")
 	)
 	(fp_line
-		(start -0.38 -1.36)
-		(end 0.37 -1.36)
+		(start -0.27 -1.36)
+		(end 0.26 -1.36)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -97,8 +97,8 @@
 		(uuid "8f0d2b33-458e-4558-96b4-0799ed74d097")
 	)
 	(fp_line
-		(start -0.375 1.29)
-		(end 0.375 1.29)
+		(start -0.24 1.29)
+		(end 0.23 1.29)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -107,8 +107,8 @@
 		(uuid "9eb7c6cb-2be1-4474-af0b-6a0656f0b55f")
 	)
 	(fp_line
-		(start 1.59 -0.24)
-		(end 1.59 0.18)
+		(start 1.59 -0.16)
+		(end 1.59 0.1)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -146,19 +146,6 @@
 		(fill no)
 		(layer "F.CrtYd")
 		(uuid "4c519a89-6c3e-4b76-b3ba-a7daf948da8d")
-	)
-	(fp_text user "16MHz"
-		(at -1.7 2.88 0)
-		(unlocked yes)
-		(layer "F.SilkS")
-		(uuid "83745114-0855-4a23-ba88-0ab9766af21c")
-		(effects
-			(font
-				(size 0.8 0.8)
-				(thickness 0.1)
-			)
-			(justify left bottom)
-		)
 	)
 	(fp_text user "Y"
 		(at -0.95 -2.01 0)
