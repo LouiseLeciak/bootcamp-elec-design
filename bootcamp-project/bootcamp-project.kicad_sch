@@ -5,952 +5,6 @@
 	(uuid "48b202d4-8288-4251-bc30-d77995558abc")
 	(paper "A4")
 	(lib_symbols
-		(symbol "POWER_FLAG_1"
-			(pin_numbers
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "POWER_FLAG_1_1_1"
-				(polyline
-					(pts
-						(xy -1.27 -2.54) (xy -2.54 -3.175) (xy -1.27 -3.81) (xy 0 -3.175) (xy -1.27 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-						(color 132 0 132 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin power_out line
-					(at -1.27 0 270)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "POWER_FLAG_10"
-			(pin_numbers
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "POWER_FLAG_10_1_1"
-				(polyline
-					(pts
-						(xy -1.27 -2.54) (xy -2.54 -3.175) (xy -1.27 -3.81) (xy 0 -3.175) (xy -1.27 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-						(color 132 0 132 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin power_out line
-					(at -1.27 0 270)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "POWER_FLAG_11"
-			(pin_numbers
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "POWER_FLAG_11_1_1"
-				(polyline
-					(pts
-						(xy -1.27 -2.54) (xy -2.54 -3.175) (xy -1.27 -3.81) (xy 0 -3.175) (xy -1.27 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-						(color 132 0 132 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin power_out line
-					(at -1.27 0 270)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "POWER_FLAG_2"
-			(pin_numbers
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "POWER_FLAG_2_1_1"
-				(polyline
-					(pts
-						(xy -1.27 -2.54) (xy -2.54 -3.175) (xy -1.27 -3.81) (xy 0 -3.175) (xy -1.27 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-						(color 132 0 132 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin power_out line
-					(at -1.27 0 270)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "POWER_FLAG_3"
-			(pin_numbers
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "POWER_FLAG_3_1_1"
-				(polyline
-					(pts
-						(xy -1.27 -2.54) (xy -2.54 -3.175) (xy -1.27 -3.81) (xy 0 -3.175) (xy -1.27 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-						(color 132 0 132 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin power_out line
-					(at -1.27 0 270)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "POWER_FLAG_4"
-			(pin_numbers
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "POWER_FLAG_4_1_1"
-				(polyline
-					(pts
-						(xy -1.27 -2.54) (xy -2.54 -3.175) (xy -1.27 -3.81) (xy 0 -3.175) (xy -1.27 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-						(color 132 0 132 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin power_out line
-					(at -1.27 0 270)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "POWER_FLAG_5"
-			(pin_numbers
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "POWER_FLAG_5_1_1"
-				(polyline
-					(pts
-						(xy -1.27 -2.54) (xy -2.54 -3.175) (xy -1.27 -3.81) (xy 0 -3.175) (xy -1.27 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-						(color 132 0 132 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin power_out line
-					(at -1.27 0 270)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "POWER_FLAG_6"
-			(pin_numbers
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "POWER_FLAG_6_1_1"
-				(polyline
-					(pts
-						(xy -1.27 -2.54) (xy -2.54 -3.175) (xy -1.27 -3.81) (xy 0 -3.175) (xy -1.27 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-						(color 132 0 132 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin power_out line
-					(at -1.27 0 270)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "POWER_FLAG_7"
-			(pin_numbers
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "POWER_FLAG_7_1_1"
-				(polyline
-					(pts
-						(xy -1.27 -2.54) (xy -2.54 -3.175) (xy -1.27 -3.81) (xy 0 -3.175) (xy -1.27 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-						(color 132 0 132 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin power_out line
-					(at -1.27 0 270)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "POWER_FLAG_8"
-			(pin_numbers
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "POWER_FLAG_8_1_1"
-				(polyline
-					(pts
-						(xy -1.27 -2.54) (xy -2.54 -3.175) (xy -1.27 -3.81) (xy 0 -3.175) (xy -1.27 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-						(color 132 0 132 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin power_out line
-					(at -1.27 0 270)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "POWER_FLAG_9"
-			(pin_numbers
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "POWER_FLAG_9_1_1"
-				(polyline
-					(pts
-						(xy -1.27 -2.54) (xy -2.54 -3.175) (xy -1.27 -3.81) (xy 0 -3.175) (xy -1.27 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-						(color 132 0 132 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin power_out line
-					(at -1.27 0 270)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "bootcamp00:ATmega328P-A"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -971,7 +25,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Library:ATMEGA328p"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1645,7 +699,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Library:marge_capacitor"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1800,7 +854,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Library:marge_led"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2051,7 +1105,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Library:JUMPER_12_J1"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2501,7 +1555,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Library:JUMPER_12_J2"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2939,7 +1993,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Library:JUMPER_FDTI"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3172,12 +2226,6 @@
 			(embedded_fonts no)
 		)
 		(symbol "bootcamp00:POWER_FLAG"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -3281,7 +2329,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Library:QUARTZ_16MHz"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3486,7 +2534,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Library:marge_resistor"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3589,7 +2637,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Library:SWITCH_SW"
 				(at 0 0 0)
 				(effects
 					(font
@@ -6024,7 +5072,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:ATMEGA328p"
 			(at 81.28 177.8 0)
 			(effects
 				(font
@@ -6181,7 +5229,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:marge_capacitor"
 			(at 40.64 104.14 0)
 			(effects
 				(font
@@ -6383,7 +5431,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:marge_resistor"
 			(at 205.74 43.18 0)
 			(effects
 				(font
@@ -6452,7 +5500,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:marge_led"
 			(at 135.89 44.45 0)
 			(effects
 				(font
@@ -6495,7 +5543,6 @@
 		)
 	)
 	(symbol
-		(lib_name "POWER_FLAG_2")
 		(lib_id "bootcamp00:POWER_FLAG")
 		(at 205.74 36.83 90)
 		(unit 1)
@@ -6588,7 +5635,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:QUARTZ_16MHz"
 			(at 106.68 130.81 0)
 			(effects
 				(font
@@ -6664,7 +5711,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:marge_resistor"
 			(at 134.62 31.75 0)
 			(effects
 				(font
@@ -6731,7 +5778,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:marge_capacitor"
 			(at 185.42 48.26 0)
 			(effects
 				(font
@@ -6800,7 +5847,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:marge_capacitor"
 			(at 43.18 39.37 0)
 			(effects
 				(font
@@ -6867,7 +5914,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:marge_capacitor"
 			(at 115.57 134.62 0)
 			(effects
 				(font
@@ -6910,7 +5957,6 @@
 		)
 	)
 	(symbol
-		(lib_name "POWER_FLAG_1")
 		(lib_id "bootcamp00:POWER_FLAG")
 		(at 63.5 52.07 90)
 		(unit 1)
@@ -7045,7 +6091,6 @@
 		)
 	)
 	(symbol
-		(lib_name "POWER_FLAG_3")
 		(lib_id "bootcamp00:POWER_FLAG")
 		(at 175.26 53.34 270)
 		(unit 1)
@@ -7140,7 +6185,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:marge_resistor"
 			(at 63.5 45.72 0)
 			(effects
 				(font
@@ -7183,7 +6228,6 @@
 		)
 	)
 	(symbol
-		(lib_name "POWER_FLAG_4")
 		(lib_id "bootcamp00:POWER_FLAG")
 		(at 134.62 50.8 90)
 		(unit 1)
@@ -7252,7 +6296,6 @@
 		)
 	)
 	(symbol
-		(lib_name "POWER_FLAG_5")
 		(lib_id "bootcamp00:POWER_FLAG")
 		(at 48.26 43.18 0)
 		(unit 1)
@@ -7387,7 +6430,6 @@
 		)
 	)
 	(symbol
-		(lib_name "POWER_FLAG_10")
 		(lib_id "bootcamp00:POWER_FLAG")
 		(at 100.33 129.54 0)
 		(unit 1)
@@ -7456,7 +6498,6 @@
 		)
 	)
 	(symbol
-		(lib_name "POWER_FLAG_6")
 		(lib_id "bootcamp00:POWER_FLAG")
 		(at 38.1 43.18 0)
 		(unit 1)
@@ -7550,7 +6591,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:SWITCH_SW"
 			(at 194.31 45.72 0)
 			(effects
 				(font
@@ -7619,7 +6660,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:marge_capacitor"
 			(at 53.34 39.37 0)
 			(effects
 				(font
@@ -7687,7 +6728,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:JUMPER_12_J1"
 			(at 152.4 107.95 0)
 			(effects
 				(font
@@ -7785,7 +6826,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:JUMPER_FDTI"
 			(at 220.98 114.3 0)
 			(effects
 				(font
@@ -7840,7 +6881,6 @@
 		)
 	)
 	(symbol
-		(lib_name "POWER_FLAG_9")
 		(lib_id "bootcamp00:POWER_FLAG")
 		(at 125.73 129.54 0)
 		(unit 1)
@@ -7909,7 +6949,6 @@
 		)
 	)
 	(symbol
-		(lib_name "POWER_FLAG_8")
 		(lib_id "bootcamp00:POWER_FLAG")
 		(at 69.85 95.25 90)
 		(unit 1)
@@ -8178,7 +7217,6 @@
 		)
 	)
 	(symbol
-		(lib_name "POWER_FLAG_11")
 		(lib_id "bootcamp00:POWER_FLAG")
 		(at 63.5 180.34 0)
 		(unit 1)
@@ -8405,7 +7443,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:marge_led"
 			(at 64.77 39.37 0)
 			(effects
 				(font
@@ -8475,7 +7513,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:JUMPER_12_J2"
 			(at 191.77 107.95 0)
 			(effects
 				(font
@@ -8548,7 +7586,6 @@
 		)
 	)
 	(symbol
-		(lib_name "POWER_FLAG_7")
 		(lib_id "bootcamp00:POWER_FLAG")
 		(at 33.02 104.14 0)
 		(unit 1)
@@ -8641,7 +7678,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:marge_capacitor"
 			(at 115.57 119.38 0)
 			(effects
 				(font
