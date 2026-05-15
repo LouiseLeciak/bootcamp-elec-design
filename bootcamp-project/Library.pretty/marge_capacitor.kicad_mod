@@ -57,8 +57,8 @@
 	)
 	(attr smd)
 	(fp_rect
-		(start -1.84 1.62)
-		(end 0.85 2.78)
+		(start -1.335 -0.58)
+		(end 1.355 0.58)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -68,7 +68,7 @@
 		(uuid "f393bf32-926a-4306-bd94-00acff026b4d")
 	)
 	(fp_text user "C"
-		(at -1.31 1.43 0)
+		(at -0.805 -0.77 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "6c5dc905-dfe5-4f55-8cfd-875265a8a59c")
@@ -81,14 +81,14 @@
 		)
 	)
 	(pad "1" smd roundrect
-		(at -1.305 2.21)
+		(at -0.8 0.01)
 		(size 0.95 1)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.15)
 		(uuid "984acf54-f469-4c9b-aab6-1287c233b646")
 	)
 	(pad "2" smd roundrect
-		(at 0.295 2.21)
+		(at 0.8 0.01)
 		(size 0.95 1)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.15)
