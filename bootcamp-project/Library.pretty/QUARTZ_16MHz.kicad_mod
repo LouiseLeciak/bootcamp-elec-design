@@ -147,7 +147,7 @@
 		(layer "F.CrtYd")
 		(uuid "4c519a89-6c3e-4b76-b3ba-a7daf948da8d")
 	)
-	(fp_text user "Y"
+	(fp_text user "Y1"
 		(at -0.95 -2.01 0)
 		(unlocked yes)
 		(layer "F.SilkS")

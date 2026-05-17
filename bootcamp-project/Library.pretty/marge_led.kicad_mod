@@ -68,7 +68,7 @@
 		(uuid "9bd715dd-7f3a-41b7-8a72-ebd449260511")
 	)
 	(fp_text user "D"
-		(at -0.835 -0.63 0)
+		(at 1.5 0.5 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "1b8f1d34-23dc-4b28-9e24-3d53dfefe495")
