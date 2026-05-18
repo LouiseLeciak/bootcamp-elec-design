@@ -12,8 +12,8 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at 0 0 0)
+			(property "Reference" "#PWR"
+				(at -1.27 -4.826 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -80,7 +80,7 @@
 							)
 						)
 					)
-					(number "1"
+					(number "0"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2319,8 +2319,8 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at 0 0 0)
+			(property "Reference" "#PWR"
+				(at -1.27 -4.826 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2387,7 +2387,7 @@
 							)
 						)
 					)
-					(number "1"
+					(number "0"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2609,7 +2609,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "R"
-				(at 0 0 0)
+				(at 0.762 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3270,6 +3270,16 @@
 	)
 	(wire
 		(pts
+			(xy 66.04 96.52) (xy 69.85 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53929f20-b992-408f-8c37-bc5af155e870")
+	)
+	(wire
+		(pts
 			(xy 44.45 106.68) (xy 48.26 106.68)
 		)
 		(stroke
@@ -3477,16 +3487,6 @@
 			(type default)
 		)
 		(uuid "e8b0483c-e053-4d46-9f68-9107e3d1c90a")
-	)
-	(wire
-		(pts
-			(xy 66.04 96.52) (xy 69.85 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ef4fb107-3bc4-4f26-a6e2-9ab38935982c")
 	)
 	(global_label "A1"
 		(shape input)
@@ -4866,74 +4866,6 @@
 		)
 	)
 	(symbol
-		(lib_id "bootcamp00:POWER_FLAG")
-		(at 63.5 181.61 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "08b47802-707b-4ec4-9fcd-fa1a4779f88c")
-		(property "Reference" "U2"
-			(at 63.5 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "~"
-			(at 64.77 184.7849 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 63.5 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 63.5 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 63.5 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8ae03b14-de23-4498-aa88-79fc5b4c58c5")
-		)
-		(instances
-			(project ""
-				(path "/48b202d4-8288-4251-bc30-d77995558abc"
-					(reference "U2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "bootcamp00:VCC")
 		(at 34.29 96.52 0)
 		(unit 1)
@@ -4994,6 +4926,73 @@
 			(project "bootcamp-project"
 				(path "/48b202d4-8288-4251-bc30-d77995558abc"
 					(reference "#PWR1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "bootcamp00:POWER_FLAG")
+		(at 63.5 181.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1337e8d7-70e0-4bf7-b17a-c3ea426a319b")
+		(property "Reference" "#PWR13"
+			(at 62.23 186.436 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 62.23 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 63.5 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 63.5 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "0"
+			(uuid "bfdcbe9b-539f-4825-ad10-cedf6403ccab")
+		)
+		(instances
+			(project ""
+				(path "/48b202d4-8288-4251-bc30-d77995558abc"
+					(reference "#PWR13")
 					(unit 1)
 				)
 			)
@@ -5564,6 +5563,74 @@
 		)
 	)
 	(symbol
+		(lib_name "POWER_FLAG_1")
+		(lib_id "bootcamp00:POWER_FLAG")
+		(at 68.58 96.52 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2bf5c940-0dca-4b78-8225-052ad6a5093d")
+		(property "Reference" "#PWR14"
+			(at 69.85 91.694 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 69.85 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 68.58 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 68.58 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 68.58 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "0"
+			(uuid "74a20eb9-aa5e-47ba-ae64-cdf4fd2cb2f4")
+		)
+		(instances
+			(project ""
+				(path "/48b202d4-8288-4251-bc30-d77995558abc"
+					(reference "#PWR14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "bootcamp00:QUARTZ")
 		(at 106.68 130.81 0)
 		(unit 1)
@@ -5904,75 +5971,6 @@
 			(project "bootcamp-project"
 				(path "/48b202d4-8288-4251-bc30-d77995558abc"
 					(reference "C1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "POWER_FLAG_1")
-		(lib_id "bootcamp00:POWER_FLAG")
-		(at 68.58 96.52 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5ab84775-ca87-4664-b54d-12e6f31d8e01")
-		(property "Reference" "U3"
-			(at 68.58 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "~"
-			(at 72.39 93.3449 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 68.58 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 68.58 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 68.58 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1bff8a3f-ed0e-441f-b29a-bf020b3db438")
-		)
-		(instances
-			(project ""
-				(path "/48b202d4-8288-4251-bc30-d77995558abc"
-					(reference "U3")
 					(unit 1)
 				)
 			)

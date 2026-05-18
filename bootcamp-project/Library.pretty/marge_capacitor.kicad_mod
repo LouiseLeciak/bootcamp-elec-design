@@ -4,10 +4,9 @@
 	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at 0 -0.5 0)
+		(at 0 -1.5 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(hide yes)
 		(uuid "32137069-14ed-41b7-b044-fb1ffddaeb84")
 		(effects
 			(font
@@ -67,17 +66,16 @@
 		(layer "F.CrtYd")
 		(uuid "f393bf32-926a-4306-bd94-00acff026b4d")
 	)
-	(fp_text user "C"
-		(at 1.5 0.5 0)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
 		(unlocked yes)
-		(layer "F.SilkS")
-		(uuid "6c5dc905-dfe5-4f55-8cfd-875265a8a59c")
+		(layer "F.Fab")
+		(uuid "d21e7baf-aaaf-4347-a75f-c9ebc2213c96")
 		(effects
 			(font
-				(size 0.8 0.8)
-				(thickness 0.1)
+				(size 1 1)
+				(thickness 0.15)
 			)
-			(justify left bottom)
 		)
 	)
 	(pad "0" smd roundrect
