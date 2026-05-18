@@ -997,12 +997,13 @@
 		(embedded_fonts no)
 	)
 	(symbol "GND"
+		(power)
 		(pin_numbers
 			(hide yes)
 		)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
 		(property "Reference" "#PWR"
 			(at 0 0 0)
 			(effects
@@ -2778,12 +2779,13 @@
 		(embedded_fonts no)
 	)
 	(symbol "VCC"
+		(power)
 		(pin_numbers
 			(hide yes)
 		)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
 		(property "Reference" "#PWR"
 			(at 0 0 0)
 			(effects
